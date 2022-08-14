@@ -14,4 +14,5 @@
 
 FROM alpine
 COPY helloworld.sh /
+EXPOSE 8080
 CMD ["/helloworld.sh"]
